@@ -143,3 +143,32 @@ h3 {
 	text-align: center;
 
 }
+
+/*медиа*/
+@media screen and (max-width: 992px) {
+	.logo {
+		display: block;
+		margin: 0 auto; 
+		margin-bottom: 30px;
+	}
+	.offer{
+		text-align: center;
+	} 
+	.offer__text {
+		margin: 20px auto;
+	}
+	.icons {
+		justify-content: center;
+	}
+	.form__input {
+		margin-right: 0;
+		width: 100%;
+		margin-bottom: 5px;
+	}
+	.form__btn {
+		width: 100%;
+	}
+	.title__text {
+		width: auto;
+	}	 
+}
